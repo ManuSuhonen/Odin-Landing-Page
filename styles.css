@@ -21,7 +21,7 @@
 
     /* information header text */
     --info-font-size: 36px;
-    --info-font-weight: extra-bold;
+    --info-font-weight: bolder;
     --info-font-color: #1F2937;
 
     /* Quote section background color */
@@ -60,7 +60,6 @@ p {
     p {
         font-size: var(--header-font-size);
         color: var(--header-font-color);
-        margin: 0;
     }
 
     ul {
@@ -115,10 +114,49 @@ p {
     }
 }
 
+.two {
+    display: flex;
+    flex-direction: column;
+    padding: 32px var(--left-right-padding);
+    gap: 32px;
 
+    >p {
+        display: flex;
+        font-size: var(--info-font-size);
+        font-weight: var(--info-font-weight);
+        color: var(--info-font-color);
+        justify-content: center;
+        text-align: center;
+    }
 
-* {
-    /* outline: 1px solid red; */
+    .info-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+        justify-content: center;
+
+        div {
+            width: 200px;
+
+            img {
+                border-radius: 32px;
+                width: 200px;
+                border: 5px solid #3b82f6;
+            }
+
+            p {
+                text-align: center;
+            }
+        }
+    }
 }
 
 
+.three {
+    background: var(--quote-bg-color);
+}
+
+
+* {
+    outline: 1px solid red;
+}
