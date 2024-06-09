@@ -1,0 +1,35 @@
+:root {
+    /* dark background color (hero and footer) */
+    --dark-bg-color: #1F2937;
+
+    /* Hero Main text ("this website is awesome") */
+    --hero-main-text-size: 48px;
+    --hero-main-text-weight: extra-bold;
+    --hero-main-text-color: #F9FAF8;
+
+    /* Hero Secondary text, Header Link Text  */
+    --hero-sec-header-text-size: 18px;
+    --hero-sec-header-text-color: #E5E7EB;
+
+    /* Header Logo Text */
+    --header-font-size: 24px;
+    --header-font-color: #F9FAF8;
+
+    /* Button color, call to action background color */
+    --button-color: #3882F6;
+
+
+    /* information header text */
+    --info-font-size: 36px;
+    --info-font-weight: extra-bold;
+    --info-font-color: #1F2937;
+
+    /* Quote section background color */
+    --quote-bg-color: #E5E7EB;
+
+    /* Quote text */
+    --quote-font-size: 36px;
+    --quote-font-style: italic;
+    --quote-font-weight: lighter;
+    --quote-font-color: #1F2937;
+}
