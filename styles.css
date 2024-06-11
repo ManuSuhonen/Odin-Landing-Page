@@ -191,6 +191,7 @@ p {
         button {
             font-size: var(--hero-sec-header-text-size);
             border-style: solid;
+            border-color: var(--hero-sec-header-text-color);
             border-radius: 8px;
             background: var(--button-color);
             color: var(--hero-sec-header-text-color);
