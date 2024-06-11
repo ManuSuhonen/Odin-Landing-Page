@@ -51,7 +51,6 @@ p {
 
 .header {
     display: flex;
-    /* height: 70px; */
     padding: 8px var(--left-right-padding);
     background-color: var(--dark-bg-color);
     justify-content: space-between;
@@ -204,7 +203,6 @@ p {
 
 .footer {
     display: flex;
-    /* height: 70px; */
     padding: 8px var(--left-right-padding);
     background-color: var(--dark-bg-color);
     justify-content: center;
@@ -213,9 +211,4 @@ p {
         font-size: var(--hero-sec-header-text-size);
         color: var(--hero-sec-header-text-color);
     }
-}
-
-
-* {
-    outline: 1px solid red;
 }
